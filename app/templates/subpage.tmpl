@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+
+<head>
+    {% include "head.tmpl" %}
+</head>
+
+<body class="subpage">
+
+    {% include "toolbar.tmpl" %}
+
+    <div class="l_screen">
+
+        {% include "header.tmpl" %}
+
+        <div class="l_content">
+
+            {% block content %} {% endblock %}
+
+        </div>
+		<a class="b_button b_button--back" href="index.html">
+			Back
+		</a>
+        {% include "footer.tmpl" %}
+
+    </div>
+
+</body>
+
+</html>

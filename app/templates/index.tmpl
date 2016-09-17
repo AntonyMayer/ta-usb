@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+
+<head>
+    {% include "head.tmpl" %}
+</head>
+
+<body>
+
+    {% include "toolbar.tmpl" %}
+
+    <div class="l_screen">
+
+        {% include "header.tmpl" %}
+
+        <div class="l_content">
+
+            {% block content %} {% endblock %}
+
+        </div>
+
+        {% include "footer.tmpl" %}
+
+    </div>
+
+</body>
+
+</html>

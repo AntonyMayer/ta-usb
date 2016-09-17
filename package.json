@@ -1,0 +1,26 @@
+{
+  "name": "ta-sciences-usb-launcher",
+  "version": "1.0.0",
+  "description": "TA Sciences USB Launcher",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@10.0.30.15:alex.teunis/t-a-sciences-usb-launcher.git"
+  },
+  "author": "Alex Teunis <alex.teunis@webtomed.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.16.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-less": "^3.1.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^0.0.28",
+    "gulp-nunjucks-render": "^2.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.3.2"
+  }
+}
