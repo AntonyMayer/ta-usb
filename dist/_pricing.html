@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TA Science</title>
+<link rel="stylesheet" href="css/fonts/stylesheet.css">
+<link rel="stylesheet" href="css/style_a.css">
+<script>
+	var path = require('path'),
+	absolutePath = path.join(process.cwd(), '/Documents/'),
+	clicnicalStudies = path.join(absolutePath, 'clinicalStudies/'),
+	whitePapers = path.join(absolutePath, 'whitePapers/'),
+	videos = path.join(absolutePath, 'videos/'),
+	marketingMaterials = path.join(absolutePath, 'marketing/'),
+	pricing = path.join(absolutePath, 'pricing/'),
+	gui = require('nw.gui');
+	document.addEventListener("DOMContentLoaded", setTimeout(function (){
+			document.getElementsByClassName('l_screen')[0].className = 'l_screen l_screen--visible';
+			var os = require('os');
+			if (os.platform() == "darwin") {
+				document.getElementsByClassName("b_toolbar__close_window")[0].classList.add("b_toolbar__close_window--ios");
+				document.getElementsByClassName("b_toolbar__draggable_area")[0].classList.add("b_toolbar__draggable_area--ios");
+			}	
+	}, 0));
+</script>
+</head>
+
+<body class="subpage" oncontextmenu="return false">
+
+    <div class="b_toolbar">
+    <div class="b_toolbar__wrapper">
+        <a href="javascript:window.close();" class="b_toolbar__close_window"></a>
+        <div class="b_toolbar__draggable_area" style="-webkit-app-region: drag"></div>
+    </div>
+</div>
+
+    <div class="l_screen">
+
+        <div class="l_header">
+    <div class="l_header_logo">
+        <a href="index.html">
+        	<img src="images/logo.png" alt="" class="b_logo__img">
+        </a>
+    </div>
+    <div class="l_header__title">
+        <h2 class="h2--white h2--top_title">
+           Publications, Presentations, and Videos <br>about the Nobel-Prize Winning Science of Telomere Biology
+       </h2>
+    </div>
+</div>
+
+        <div class="l_content">
+
+            
+<h3 class="h3--media_title">
+    Pricing & Ordering
+</h3>
+<div class="b_media_wrapper">
+    
+    <div class="b_media__element">
+        <a href="javascript:gui.Shell.openItem(pricing + 'tas-pricing-guide-lic-vs-retail.pdf');" class="b_media__href"></a>
+        <div class="b_media__icon">
+            <img src="images/icon--pricing.png" alt="icon" class="b_media__img">
+        </div>
+        <div class="b_media__description">
+            <p>TAS Pricing Guide_LIC vs. Retail</p>
+        </div>
+    </div>
+    
+    <div class="b_media__element">
+        <a href="javascript:gui.Shell.openItem(pricing + 'tas-credit-card-authorization-form.pdf');" class="b_media__href"></a>
+        <div class="b_media__icon">
+            <img src="images/icon--pricing.png" alt="icon" class="b_media__img">
+        </div>
+        <div class="b_media__description">
+            <p>TAS Credit Card Authorization Form</p>
+        </div>
+    </div>
+    
+    <div class="b_media__element">
+        <a href="javascript:gui.Shell.openItem(pricing + 'ta-65-licensee-agreement.pdf');" class="b_media__href"></a>
+        <div class="b_media__icon">
+            <img src="images/icon--pricing.png" alt="icon" class="b_media__img">
+        </div>
+        <div class="b_media__description">
+            <p>TA-65 Licensee Agreement</p>
+        </div>
+    </div>
+    
+</div>
+<a class="b_button b_button--back" href="index.html">Back</a>
+<a class="b_button b_button--back b_button--browse" href="javascript:gui.Shell.openItem(pricing)">
+    Browse Files
+</a>
+
+
+        </div>
+        <div class="l_footer">
+    <div class="l_footer__copyrights">
+        <p>
+            <img src="images/info.png" alt="info" class="l_footer__info_img"> Copyright &copy; 2016 T.A. Sciences. All Rights Reserved. <br> All trademarks used are the properties of their respective owners.
+        </p>
+    </div>
+    <div class="l_footer__web">
+            <a href="javascript:require('nw.gui').Shell.openExternal('http://www.tasciences.com');" class="b_button b_button--web_link b_button--shadow_txt">www.tasciences.com</a>
+    </div>
+    <div class="l_footer__contacts">
+        <p>
+            <a href="javascript:require('nw.gui').Shell.openExternal('mailto:info@tasciences.com');" class="b_button b_button--shadow_txt">info@tasciences.com</a>
+         Toll-Free: 
+         <a href="javascript:require('nw.gui').Shell.openExternal('tel:8883608886');" class="b_button b_button--shadow_txt"><strong>888.360.8886</strong></a>
+     </p>
+    </div>
+</div>
+
+    </div>
+
+</body>
+
+</html>

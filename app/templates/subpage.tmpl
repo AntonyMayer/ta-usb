@@ -5,7 +5,7 @@
     {% include "head.tmpl" %}
 </head>
 
-<body class="subpage">
+<body class="subpage" oncontextmenu="return false">
 
     {% include "toolbar.tmpl" %}
 
@@ -18,9 +18,6 @@
             {% block content %} {% endblock %}
 
         </div>
-		<a class="b_button b_button--back" href="index.html">
-			Back
-		</a>
         {% include "footer.tmpl" %}
 
     </div>

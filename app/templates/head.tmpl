@@ -4,3 +4,21 @@
 <title>TA Science</title>
 <link rel="stylesheet" href="css/fonts/stylesheet.css">
 <link rel="stylesheet" href="css/style_a.css">
+<script>
+	var path = require('path'),
+	absolutePath = path.join(process.cwd(), '/Documents/'),
+	clicnicalStudies = path.join(absolutePath, 'clinicalStudies/'),
+	whitePapers = path.join(absolutePath, 'whitePapers/'),
+	videos = path.join(absolutePath, 'videos/'),
+	marketingMaterials = path.join(absolutePath, 'marketing/'),
+	pricing = path.join(absolutePath, 'pricing/'),
+	gui = require('nw.gui');
+	document.addEventListener("DOMContentLoaded", setTimeout(function (){
+			document.getElementsByClassName('l_screen')[0].className = 'l_screen l_screen--visible';
+			var os = require('os');
+			if (os.platform() == "darwin") {
+				document.getElementsByClassName("b_toolbar__close_window")[0].classList.add("b_toolbar__close_window--ios");
+				document.getElementsByClassName("b_toolbar__draggable_area")[0].classList.add("b_toolbar__draggable_area--ios");
+			}	
+	}, 0));
+</script>

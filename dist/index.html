@@ -8,9 +8,27 @@
 <title>TA Science</title>
 <link rel="stylesheet" href="css/fonts/stylesheet.css">
 <link rel="stylesheet" href="css/style_a.css">
+<script>
+	var path = require('path'),
+	absolutePath = path.join(process.cwd(), '/Documents/'),
+	clicnicalStudies = path.join(absolutePath, 'clinicalStudies/'),
+	whitePapers = path.join(absolutePath, 'whitePapers/'),
+	videos = path.join(absolutePath, 'videos/'),
+	marketingMaterials = path.join(absolutePath, 'marketing/'),
+	pricing = path.join(absolutePath, 'pricing/'),
+	gui = require('nw.gui');
+	document.addEventListener("DOMContentLoaded", setTimeout(function (){
+			document.getElementsByClassName('l_screen')[0].className = 'l_screen l_screen--visible';
+			var os = require('os');
+			if (os.platform() == "darwin") {
+				document.getElementsByClassName("b_toolbar__close_window")[0].classList.add("b_toolbar__close_window--ios");
+				document.getElementsByClassName("b_toolbar__draggable_area")[0].classList.add("b_toolbar__draggable_area--ios");
+			}	
+	}, 0));
+</script>
 </head>
 
-<body>
+<body oncontextmenu="return false">
 
     <div class="b_toolbar">
     <div class="b_toolbar__wrapper">
@@ -29,7 +47,7 @@
     </div>
     <div class="l_header__title">
         <h2 class="h2--white h2--top_title">
-           !!!Publications, Presentations, and Videos <br>about the Nobel-Prize Winning Science of Telomere Biology
+           Publications, Presentations, and Videos <br>about the Nobel-Prize Winning Science of Telomere Biology
        </h2>
     </div>
 </div>
@@ -40,10 +58,10 @@
 <div class="l_content__left">
     <h3 class="h3--select">Please Select One From Below</h3>
     <a href="_studies.html" class="b_button b_button--materials b_button--studies b_button--pdf"></a>
-    <a href="_studies.html" class="b_button b_button--materials b_button--marketing b_button--pdf"></a>
-    <a href="_studies.html" class="b_button b_button--materials b_button--videos b_button--mp4"></a>
-    <a href="_studies.html" class="b_button b_button--materials b_button--prices b_button--ppt"></a>
-    <a href="_studies.html" class="b_button b_button--materials b_button--papers b_button--pdf"></a>
+    <a href="_marketing.html" class="b_button b_button--materials b_button--marketing b_button--pdf"></a>
+    <a href="_videos.html" class="b_button b_button--materials b_button--videos b_button--mp4"></a>
+    <a href="_pricing.html" class="b_button b_button--materials b_button--prices b_button--ppt"></a>
+    <a href="_whitePapers.html" class="b_button b_button--materials b_button--papers b_button--pdf"></a>
 </div>
 <div class="l_content__right">
     <img class="l_content__img--product" src="images/product.png" alt="TA65">
@@ -55,8 +73,7 @@
         <div class="l_footer">
     <div class="l_footer__copyrights">
         <p>
-            <img src="images/info.png" alt="info" class="l_footer__info_img"> Copyright &copy; 2016 T.A. Sciences. All Rights Reserved. All
-            <br> trademarks used are the properties of their respective owners.
+            <img src="images/info.png" alt="info" class="l_footer__info_img"> Copyright &copy; 2016 T.A. Sciences. All Rights Reserved. <br> All trademarks used are the properties of their respective owners.
         </p>
     </div>
     <div class="l_footer__web">

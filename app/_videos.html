@@ -1,0 +1,22 @@
+{% extends "subpage.tmpl" %} {% block content %}
+<h3 class="h3--media_title">
+    Videos
+</h3>
+<div class="b_media_wrapper">
+    {% for elem in videos %}
+    <div class="b_media__element">
+        <a href="javascript:gui.Shell.openItem(videos + '{{elem.src}}');" class="b_media__href"></a>
+        <div class="b_media__icon">
+            <img src="images/icon--mp4.png" alt="icon" class="b_media__img">
+        </div>
+        <div class="b_media__description">
+            <p>{{elem.description}}</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+<a class="b_button b_button--back" href="index.html">Back</a>
+<a class="b_button b_button--back b_button--browse" href="javascript:gui.Shell.openItem(videos)">
+    Browse Files
+</a>
+{% endblock %}

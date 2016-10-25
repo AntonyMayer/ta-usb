@@ -1,0 +1,17 @@
+ Volume in drive U is WTM_USERS
+ Volume Serial Number is 8D12-1957
+
+ Directory of U:\reps\t-a-sciences-usb-launcher\usb\docs\clinicalStudies
+
+09/19/2016  12:28 PM    <DIR>          .
+09/19/2016  10:58 AM    <DIR>          ..
+04/06/2016  08:03 PM           204,135 A Natural Product Telomerase Activator - Lengthens Telomeres in Humans (Double Blind Placebo Control) Study - Raffaele 2016.pdf
+11/02/2015  01:27 PM           214,718 A Natural Product Telomerase Activator as Part of a Health Maintenance Program Metabolic and Cardiovascular Response Study - Harley 2013.pdf
+12/04/2015  06:11 PM           847,286 A Natural Product Telomerase Activator as Part of a Health Maintenance Program Study - Harley 2011.pdf
+11/02/2015  01:27 PM           665,811 Functional Assessment of Pharmacological T.A. in Human T Cells Study - Valenzuela.pdf
+11/02/2015  01:27 PM         3,113,272 Harvard Age Reversal in a Mammal Study - DePinho.pdf
+11/02/2015  01:27 PM           299,421 TA-65 Bird Feather Regeneration Study - Criscuolo.pdf
+09/19/2016  12:28 PM               147 list.txt
+11/02/2015  01:27 PM         1,051,127 ta-65-elongates-short-telomeres-and-increases-healthspan-of-adult-old-mice-without-increasing-cancer-incidence-study-blasco.pdf
+               8 File(s)      6,395,917 bytes
+               2 Dir(s)  5,941,716,492,288 bytes free

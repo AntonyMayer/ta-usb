@@ -1,0 +1,22 @@
+{% extends "subpage.tmpl" %} {% block content %}
+<h3 class="h3--media_title">
+    Pricing & Ordering
+</h3>
+<div class="b_media_wrapper">
+    {% for elem in pricing %}
+    <div class="b_media__element">
+        <a href="javascript:gui.Shell.openItem(pricing + '{{elem.src}}');" class="b_media__href"></a>
+        <div class="b_media__icon">
+            <img src="images/icon--pricing.png" alt="icon" class="b_media__img">
+        </div>
+        <div class="b_media__description">
+            <p>{{elem.description}}</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+<a class="b_button b_button--back" href="index.html">Back</a>
+<a class="b_button b_button--back b_button--browse" href="javascript:gui.Shell.openItem(pricing)">
+    Browse Files
+</a>
+{% endblock %}

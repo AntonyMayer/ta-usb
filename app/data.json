@@ -1,0 +1,101 @@
+{
+    "studies": [{
+        "description": "The telomerase activator TA-65 elongates short telomeres and increases health span of adult old mice without increasing cancer incidence ",
+        "date": "2011",
+        "src": "ta-65-elongates-short-telomeres-and-increases-healthspan-of-adult-old-mice-without-increasing-cancer-incidence-study-blasco.pdf"
+    }, {
+        "description": "First Randomized, Double-Blind, Placebo-Controlled Study to Show Telomere Lengthening in Humans",
+        "date": "2016",
+        "src": "a-natural-product-telomerase-activator-lengthens-telomeres-in-humans-double-blind-placebo-control-study-raffaele-2016.pdf"
+    }, {
+        "description": "A Natural Product Telomerase Activator as Part of a Health Maintenance Program: Metabolic and Cardiovascular Response",
+        "date": "2013",
+        "src": "a-natural-product-telomerase-activator-as-part-of-a-health-maintenance-program-metabolic-and-cardiovascular-response-study-harley-2013.pdf"
+    }, {
+        "description": "A Natural Product Telomerase Activator As Part of a Health Maintenance Program",
+        "date": "2011",
+        "src": "a-natural-product-telomerase-activator-as-part-of-a-health-maintenance-program-study-harley-2011.pdf"
+    }, {
+        "description": "Telomerase reactivation reverses tissue degeneration in aged telomerase deficient mice",
+        "date": "2011",
+        "src": "harvard-age-reversal-in-a-mammal-study-depinho.pdf"
+    }, {
+        "description": "Functional Assessment of Pharmacological Telomerase Activators in Human T Cells",
+        "date": "2013",
+        "src": "functional-assessment-of-pharmacological-t-a-in-human-t-cells-study-valenzuela.pdf"
+    }, {
+        "description": "Experimental increase in telomere length leads to faster feather regeneration",
+        "date": "2014",
+        "src": "ta-65-bird-feather-regeneration-study-criscuolo.pdf"
+    }],
+    "whitePapers": [{
+            "description": "A Natural Product Telomerase Activator as Part of a Health Maintenance Program: Metabolic and Cardiovascular Response",
+            "date": "2013",
+            "src": "a-natural-product-telomerase-activator-as-part-of-a-health-maintenance-program-metabolic-and-cardiovascular-response-study-harley-2013.pdf"
+        }, {
+            "description": "A Natural Product Telomerase Activator as Part of a Health Maintenance Program",
+            "date": "2011",
+            "src": "a-natural-product-telomerase-activator-as-part-of-a-health-maintenance-program-study-harley-2011.pdf"
+        }, {
+            "description": "Functional Assessment of Pharmacological Telomerase Activators in Human T Cells",
+            "date": "2013",
+            "src": "functional-assessment-of-pharmacological-t-a-in-human-t-cells-study-valenzuela.pdf"
+        }, {
+            "description": "Genetic Epidemiology Research on Adult Health and Aging (GERA) Study",
+            "date": "2015",
+            "src": "genetic-epidemiology-research-on-adult-health-and-aging-gera-study-schaefer.pdf"
+        }, {
+            "description": "The First Documented Age Reversal in a Mammal: Harvard University Study shows Telomerase Activation Helps Reverse the Aging Process",
+            "date": "2015",
+            "src": "harvard-age-reversal-in-a-mammal-study-depinho.pdf"
+        }, {
+            "description": "The Telomerase Activator, TA-65, Elongates Short Telomeres and Increases Healthspan of Adult/Old Mice without Increasing Cancer Incidence",
+            "date": "2011",
+            "src": "ta-65-elongates-short-telomeres-and-increases-healthspan-of-adult-old-mice-without-increasing-cancer-incidence-study-blasco.pdf"
+        }, {
+            "description": "Demonstrated Improvement of Prematurely Aged Skin by TA-65 for Skin",
+            "date": "2015",
+            "src": "ta-65-skin-photoaging-topical-study-stern.pdf"
+        }, {
+            "description": "TA-65 for Skin Reduces the Appearance of Aging Effects by Increasing Firmness and Reducing Wrinkles and Redness",
+            "date": "2015",
+            "src": "ta-65-skin-reduces-aging-effects-study-essex.pdf"
+        }, {
+            "description": "Demonstrated Improvement of Prematurely Aged Skin by Oral Intake of TA-65",
+            "date": "2015",
+            "src": "demonstrated-improvement-of-prematurely-aged-skin-by-oral-intake-of-ta-65md-study-stern.pdf"
+        }
+
+    ],
+    "videos": [{
+        "description": "TA-65 Animation Video",
+        "src": "ta-65-animation-video.mp4"
+    }, {
+        "description": "TA-65 Testimonial Video",
+        "src": "ta-65-testimonial-video.mp4"
+    }],
+    "marketing_pdf": [{
+        "description": "TA-65 Brochure Card",
+        "src": "ta-65-brochure-card.pdf"
+    }, {
+        "description": "TA-65 Capsule Ad",
+        "src": "ta-65-capsule-ad.pdf"
+    }, {
+        "description": "TA-65 for Skin Ad",
+        "src": "ta-65-for-skin-ad.pdf"
+    }],
+    "marketing_ppt": [{
+        "description": "Cellular Aging and Your Health",
+        "src": "cellular-aging-and-your-health.ppsx"
+    }],
+    "pricing": [{
+        "description": "TAS Pricing Guide_LIC vs. Retail",
+        "src": "tas-pricing-guide-lic-vs-retail.pdf"
+    }, {
+        "description": "TAS Credit Card Authorization Form",
+        "src": "tas-credit-card-authorization-form.pdf"
+    }, {
+        "description": "TA-65 Licensee Agreement",
+        "src": "ta-65-licensee-agreement.pdf"
+    }]
+}
